@@ -1,14 +1,37 @@
-.navbar{
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 10;
-}
-
-.navbar_links{
-    padding: 2rem 4rem 1rem;
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
     display: flex;
-    justify-content: space-between;
-    color: var(--secundario);
-}
+    justify-content: space-around;
+    align-items: center;
+    font-family: var(--fonte);;
+    background: #23232e;
+    height: 8vh;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+  
+  .mobile-menu {
+    display: none;
+    cursor: pointer;
+  }
+  
+  .mobile-menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+  }

@@ -1,0 +1,45 @@
+main{
+    background: url("https://raw.githubusercontent.com/tigercodes-io/navbar/main/bg.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92vh;
+    opacity: 0.8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--fonte2);
+}
+
+.container{
+    width: 500px;
+    height: 600px;
+    background-color: #23232e;
+}
+
+.container-text{
+    width: 500px;
+    height: 600px;
+    display: flex;
+    align-items: center;
+}
+
+.container-img{
+    display: flex;
+    align-items: center;
+}
+
+
+.text{
+    color: #fff;
+    font-size: 1.3rem;
+}
+
+.container-img > img{
+    border-radius: 50%;
+}
+
+section.about{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
