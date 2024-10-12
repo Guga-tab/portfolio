@@ -1,11 +1,9 @@
 main{
-    background: url("https://raw.githubusercontent.com/tigercodes-io/navbar/main/bg.jpg") no-repeat center center;
-    background-size: cover;
-    height: 92vh;
-    opacity: 0.8;
+    background-color: #0a0a0a;
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-flow: nowrap column;
     font-family: var(--fonte2);
 }
 
@@ -30,16 +28,99 @@ main{
 
 .text{
     color: #fff;
-    font-size: 1.3rem;
+    font-size: 1rem;
 }
 
 .container-img > img{
     border-radius: 50%;
 }
 
-section.about{
-    width: 60%;
+section{
+    width: 1000px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
+}
+
+section.about{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #0a0a0a;
+}
+
+section.projects{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column;
+    background-color: #3f3f3f;
+    box-shadow: 4px 4px 10px #0000006e inset;
+}
+
+#title-projects{
+    color: #fff;
+    margin: 12px;
+    font-size: 2rem;
+}
+
+h2{
+    color: #fff;
+    text-align: center;   
+}
+
+div.proj{
+    display: flex;
+    width: 750px;
+    padding: 25px;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: nowrap column;
+    background-color: #2e2e2e;
+    border-radius: 12px;
+    margin-bottom: 12px;
+}
+
+img#hollow{
+    width: 320px;
+    transform: scaleX(-1);
+}
+
+img#logoEraindie{
+    width: 320px;
+    padding: 0 0 18px 0;
+}
+
+img#print{
+    width: 250px;
+    height: 150px;
+    border: 4px solid black;
+    box-shadow: 4px -4px 10px rgba(0, 0, 0, 0.384);
+    transition: 0.7s;
+    cursor: pointer;
+}
+
+img#print:hover{
+    width: 300px;
+    height: 200px;
+}
+
+a#tccLink{
+    color: inherit;
+    transition: 0;
+    opacity: 1;
+    align-self: flex-end;
+}
+
+.alignImg{
+    display: flex;
+    flex-flow: nowrap row-reverse;
+    align-items: center;    
+}
+
+.textProjects{
+    color: #fff;
+    font-size: 1.5rem;
 }

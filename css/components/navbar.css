@@ -8,30 +8,28 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
+    flex-flow: row wrap;
     font-family: var(--fonte);;
-    background: #23232e;
-    height: 8vh;
+    background: var(--color5);
+    padding: 10px;
   }
   
   .nav-list {
     list-style: none;
     display: flex;
+
   }
   
   .nav-list li {
     letter-spacing: 3px;
-    margin-left: 32px;
+    padding: 0 15px 0 15px;
   }
-  
-  .mobile-menu {
+
+  #title{
+    color: var(--color3);
+    font-size: 1.5rem;
+  }
+
+  #btn-responsive{
     display: none;
-    cursor: pointer;
-  }
-  
-  .mobile-menu div {
-    width: 32px;
-    height: 2px;
-    background: #fff;
-    margin: 8px;
-    transition: 0.3s;
   }
