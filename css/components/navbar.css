@@ -1,35 +1,33 @@
-  .logo {
-    font-size: 24px;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-  }
-  
-  nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-flow: row wrap;
-    font-family: var(--fonte);;
-    background: var(--color5);
-    padding: 10px;
-  }
-  
-  .nav-list {
-    list-style: none;
-    display: flex;
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: row wrap;
+  font-family: var(--fonte1);;
+  background: var(--color4);
+  padding: 10px;
+}
 
-  }
-  
-  .nav-list li {
-    letter-spacing: 3px;
-    padding: 0 15px 0 15px;
-  }
+.nav-list {
+  list-style: none;
+  display: flex;
+}
 
-  #title{
-    color: var(--color3);
-    font-size: 1.5rem;
-  }
+.nav-list li {
+  letter-spacing: 3px;
+  padding: 0 15px 0 15px;
+}
 
-  #btn-responsive{
-    display: none;
-  }
+.nav-list li a {
+  color: var(--white);
+  text-decoration: none;
+}
+
+#title{
+  color: var(--white);
+  font-size: 1.7rem;
+}
+
+#btn-responsive{
+  display: none;
+}

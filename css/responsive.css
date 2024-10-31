@@ -4,7 +4,8 @@
   }
 
   #title{
-    padding: 0 8px 0 8px;
+    font-size: 2em;
+    padding: 0 8px 15px 8px;
   }
 }
 
@@ -38,6 +39,5 @@
     color: var(--colo5);
     font-size: 1.7rem;
     width: 100%;
-    margin-top: 10px;
   }
 }

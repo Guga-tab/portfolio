@@ -1,5 +1,5 @@
 main{
-    background-color: #0a0a0a;
+    background-color: var(--color5);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -7,17 +7,33 @@ main{
     font-family: var(--fonte2);
 }
 
-.container{
-    width: 500px;
-    height: 600px;
-    background-color: #23232e;
+.banner{
+    width: 100vw;
+    background: no-repeat black url("/imgs/banner-op-A\ Sister\'s\ Journey.png");
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    padding: 150px 0 150px 0px;
+}
+
+.h1-banner{
+    font-size: 2em;
+    color: #fff;
+    transition: 0.5s;
+    text-align: justify;
+    cursor: pointer;
+}
+
+.h1-banner:hover{
+    opacity: 0.7;
 }
 
 .container-text{
-    width: 500px;
-    height: 600px;
     display: flex;
+    justify-content: center;
     align-items: center;
+    flex-flow: column;
 }
 
 .container-img{
@@ -28,11 +44,13 @@ main{
 
 .text{
     color: #fff;
-    font-size: 1rem;
+    font-size: 1.2em;
+    padding: 15px 0 0 15px;
 }
 
 .container-img > img{
     border-radius: 50%;
+    width: 200px;
 }
 
 section{
@@ -42,15 +60,36 @@ section{
     justify-content: space-between; 
 }
 
-section.about{
-    width: 100%;
-    display: flex;
-    align-items: center;
+section#inicio{
+    width: 800px;
+    height: 600px;
     justify-content: space-evenly;
-    background-color: #0a0a0a;
+    flex-flow: column;
+    background-color: var(--color4);
+    margin-top: 15px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 8px;
 }
 
-section.projects{
+div.apresentation > div.container-text > .text {
+    font-size: 26px;
+}
+
+div.apresentation{
+    display: flex;
+    align-items:center;
+    flex-flow: row-reverse;
+    justify-content: center;
+    padding: 8px;
+}
+
+div#about{
+    display: flex;
+    align-items: center;
+}
+
+section#projects{
     width: 100%;
     display: flex;
     align-items: center;
@@ -62,13 +101,14 @@ section.projects{
 
 #title-projects{
     color: #fff;
-    margin: 12px;
+    margin: 30px 0 30px 0;
     font-size: 2rem;
 }
 
-h2{
+.container-text > h2{
     color: #fff;
     text-align: center;   
+    font-size: 1.9em;
 }
 
 div.proj{
@@ -80,7 +120,7 @@ div.proj{
     flex-flow: nowrap column;
     background-color: #2e2e2e;
     border-radius: 12px;
-    margin-bottom: 12px;
+    margin-bottom: 35px;
 }
 
 img#hollow{
@@ -93,7 +133,7 @@ img#logoEraindie{
     padding: 0 0 18px 0;
 }
 
-img#print{
+img.print{
     width: 250px;
     height: 150px;
     border: 4px solid black;
@@ -102,25 +142,56 @@ img#print{
     cursor: pointer;
 }
 
-img#print:hover{
+img.print:hover{
     width: 300px;
     height: 200px;
+    opacity: 0.7;
 }
 
 a#tccLink{
     color: inherit;
-    transition: 0;
-    opacity: 1;
     align-self: flex-end;
+}
+
+img#book{
+    width: 70px;
 }
 
 .alignImg{
     display: flex;
     flex-flow: nowrap row-reverse;
-    align-items: center;    
+    align-items: center; 
+    padding-bottom: 15px;     
 }
+
+.alignImgPrat{
+    display: flex;
+    flex-flow: nowrap row-reverse;
+    align-items: center;
+    padding-bottom: 15px;  
+}
+    
 
 .textProjects{
     color: #fff;
     font-size: 1.5rem;
+}
+
+.subTitle-project{
+    color: #fff;
+    font-size: 1.7rem;
+}
+
+img.printBig{
+    width: 550px;
+    height: 350px;
+    margin-top: 25px;
+    box-shadow: 4px -4px 10px rgba(0, 0, 0, 0.384);
+    border: 4px solid black;
+    transition: 0.7s;
+    cursor: pointer
+}
+
+a.pratLink:hover{
+    opacity: 1;
 }

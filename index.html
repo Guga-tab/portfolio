@@ -17,48 +17,96 @@
       <a href="#"><h1 id="title">Guga-tab</h1></a>
       <button id="btn-responsive">=</button>
       <ul class="nav-list">
-        <li><a href="#">Início</a></li>
-        <li><a href="#">Sobre</a></li>
-        <li><a href="#">Projetos</a></li>
-        <li><a href="#">Habilidades</a></li>
-        <li><a href="#">Contato</a></li>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#habilits">Habilidades</a></li>
+        <li><a href="#contact">Contato</a></li>
       </ul>
     </nav>
   </header>
+
   <main>
 
-    <section class="about">
-      <div class="container-text">
-        <p class="text">Técnico em Informática para Internet pela ETEC-PG, onde desenvolvi habilidades técnicas de programação para desenvolvimento web, conexão e manipulação de bancos de dados MySQL utilizando a linguagem PHP, além de conceitos básicos de design e redes de computadores, entre outros. Apaixonado por tecnologia, tenho conhecimento sólido em manutenção de computadores, notebooks, celulares e redes. Atualmente, estou cursando graduação em Análise e Desenvolvimento de Sistemas na FATEC-PG. Sou proativo e empolgado para aprender cada vez mais..</p>
+    <div class="banner">
+      <h1 class="h1-banner">Olá, me chamo<br>Gustavo Machado dos Santos!</h1>
+    </div>
+
+    <section id="inicio">
+      
+      <div class="apresentation">
+        <div class="container-text">
+          <p class="text">Técnico em Informática para Internet | Analista e Desenvolvedor de sistemas.</p>
+        </div>
+  
+        <div class="container-img">
+          <img src="https://avatars.githubusercontent.com/u/123379826?s=400&u=8feb0b25c82d414829e716b98d47aa57df080b8b&v=4" alt="EU">
+        </div>
       </div>
-      <div class="container-img">
-        <img src="https://avatars.githubusercontent.com/u/123379826?s=400&u=8feb0b25c82d414829e716b98d47aa57df080b8b&v=4" alt="EU">
+  
+      <div id="about">
+        <div class="container-text">
+            <h2>Sobre mim</h2>
+            <p class="text">Técnico em Informática para Internet pela ETEC-PG, onde desenvolvi habilidades técnicas de programação para desenvolvimento web, conexão e manipulação de bancos de dados MySQL utilizando a linguagem PHP, além de conceitos básicos de design e redes de computadores, entre outros. Apaixonado por tecnologia, tenho conhecimento sólido em manutenção de computadores, notebooks, celulares e redes. Atualmente, estou cursando graduação em Análise e Desenvolvimento de Sistemas na FATEC-PG. Sou proativo e empolgado para aprender cada vez mais.</p>
+        </div>
       </div>
     </section>
 
-    <section class="projects">
+    <section id="projects">
       <h1 id="title-projects">Conheça os meus projetos.</h1>
 
       <div class="proj">
         <img src="imgs/logo1-semfundo vermelha-branca.png" alt="logoEraindie" id="logoEraindie">  
-        <p class="textProjects">Site com foco em divulgar os jogos independentes desenvolvidos por pequenas e grandes empresas. Criado em equipe durante o meu curso técnico em Informática para Internet.</p>
+        <p class="textProjects">Site com foco em divulgar os jogos desenvolvidos por pequenas empresas e desenvolvedores independentes. Criado em equipe durante o meu curso técnico em Informática para Internet.</p>
         <div class="alignImg">
           <img src="https://www.pngall.com/wp-content/uploads/15/Among-Us-Character-No-Background.png" alt="hollow-knight-switch" id="hollow">
-          <a href="http://eraindie.infinityfreeapp.com/?i=1" target="_blank" id="tccLink"><img src="imgs/screen_shootTCC.png" alt="printScreen" id="print"></a>
+          <a href="http://eraindie.infinityfreeapp.com/?i=1" target="_blank" id="tccLink"><img src="imgs/screen_shootTCC.png" alt="printScreen" class="print"></a>
         </div>
       </div>
 
       <div class="proj">
-        <img src="imgs/logo1-semfundo vermelha-branca.png" alt="logoEraindie" id="logoEraindie">  
-        <p class="textProjects">Site com foco em divulgar os jogos independentes desenvolvidos por pequenas e grandes empresas. Criado em equipe durante o meu curso técnico em Informática para Internet.</p>
-        <div class="alignImg">
-          <img src="https://www.pngall.com/wp-content/uploads/15/Among-Us-Character-No-Background.png" alt="hollow-knight-switch" id="hollow">
-          <a href="http://eraindie.infinityfreeapp.com/?i=1" target="_blank" id="endereco"><img src="imgs/screen_shootTCC.png" alt="printScreen" id="print"></a>
+        
+        <div class="alignImgPrat">
+          <h1 class="subTitle-project">Prateleira-virtual</h1>
+          <img src="https://cdn.icon-icons.com/icons2/1286/PNG/512/59_85246.png" alt="iconBook" id="book">
         </div>
+
+        <p class="textProjects">Prateleira virtual estilizada com Flexbox em CSS, alimentada por um catálogo de livros adicionados a um banco de dados.</p>
+          
+        <a href="https://guga-tab.github.io/Prateleira-Virtual/" target="_blank" class="pratLink"><img src="imgs/screen_shootPrateleira.png" alt="printScreen" class="printBig"></a>
+      </div>
+      
+      <div class="proj">
+        
+        <div class="alignImg">
+          <h1 class="subTitle-project">Retroloc</h1>
+        </div>
+
+        <p class="textProjects">Loja de vendas e trocas de games Antigos. Construído durante o meu ensino técnico, as vendas são adicionados para um carrinho por meio da interação do usuário atráves de JavaScript.</p>
+          
+        <a href="https://retroloc.vercel.app/" target="_blank" class="pratLink"><img src="imgs/screen_shootRetroloc.png" alt="printScreen" class="printBig"></a>
+      </div>
+      
+      <div class="proj">
+        
+        <div class="alignImg">
+          <h1 class="subTitle-project">Quiz-Fatec</h1>
+        </div>
+
+        <p class="textProjects">Projeto de quiz para as instituições de ensino do Centro Paula Souza (FATEC). Desenvolvido utilizando sessionStorage em JavaScript, onde o usuário, através de um breve formulário, pode se cadastrar automaticamente nos vestibulares e adquirir conhecimento sobre o processo.</p>
+          
+        <a href="https://quiz-fatec.vercel.app/" target="_blank" class="pratLink"><img src="imgs/screen_shootQuiz.png" alt="printScreen" class="printBig"></a>
       </div>
       
     </section>
 
+    <section id="habilits">
+        
+    </section>
+
+    <footer id="contact">
+
+    </footer>
 
   </main>
   <script src="scripts/mobile-navbar.js"></script>
