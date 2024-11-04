@@ -19,7 +19,7 @@ main{
 
 .h1-banner{
     font-size: 2em;
-    color: #fff;
+    color: var(--white);
     transition: 0.5s;
     text-align: justify;
     cursor: pointer;
@@ -43,7 +43,7 @@ main{
 
 
 .text{
-    color: #fff;
+    color: var(--white);
     font-size: 1.2em;
     padding: 15px 0 0 15px;
 }
@@ -99,14 +99,14 @@ section#projects{
     box-shadow: 4px 4px 10px #0000006e inset;
 }
 
-#title-projects{
-    color: #fff;
+.title-projects{
+    color: var(--white);
     margin: 30px 0 30px 0;
     font-size: 2rem;
 }
 
 .container-text > h2{
-    color: #fff;
+    color: var(--white);
     text-align: center;   
     font-size: 1.9em;
 }
@@ -145,7 +145,7 @@ img.print{
 img.print:hover{
     width: 300px;
     height: 200px;
-    opacity: 0.7;
+    opacity: 0.9;
 }
 
 a#tccLink{
@@ -173,12 +173,12 @@ img#book{
     
 
 .textProjects{
-    color: #fff;
+    color: var(--white);
     font-size: 1.5rem;
 }
 
 .subTitle-project{
-    color: #fff;
+    color: var(--white);
     font-size: 1.7rem;
 }
 
@@ -194,4 +194,37 @@ img.printBig{
 
 a.pratLink:hover{
     opacity: 1;
+}
+
+section#habilits{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-flow: column;
+    background-color: #3f3f3f;
+    box-shadow: 4px 4px 10px #0000006e inset;
+    background: no-repeat black url("/imgs/banner-forest++.png");
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+div#container-habilits{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 750px;
+    height: 560px;
+    flex-flow: column;
+}
+
+div#container-images-habilits{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imgHabilits:hover{
+    width: 150px;
+    opacity: 0.8;
 }
