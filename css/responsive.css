@@ -1,4 +1,54 @@
+@media (max-width: 1238px){
+  footer{
+    align-items: center;
+  }
+
+  h2#title-contacts{
+    font-size: 1.5em;
+  }
+
+}
+
+@media (max-width: 810px){
+  section#inicio{
+    width: 600px;
+  }
+
+  div.proj{
+    width: 500px;
+  }
+
+  img.print{
+    width: 190px;
+    height: 120px;
+  }
+
+  div.alignImg{
+    padding-top: 15px;
+  }
+
+  img#among{
+    width: 250px;
+  }
+
+  img.printBig{
+    width: 450px;
+    height: 250px;
+  }
+
+  p.textProjects{
+    width: 423px;
+    font-size: 1.3em;
+  }
+
+  img.imgHabilits{
+    width: 100px;
+  }
+
+}
+
 @media (max-width: 730px){
+  /*navBar*/
   nav{  
     justify-content: flex-start;
   }
@@ -6,6 +56,41 @@
   #title{
     font-size: 2em;
     padding: 0 8px 15px 8px;
+  }
+
+  /*Main*/
+
+  section#inicio{
+    width: 500px;
+  }
+
+  div.apresentation > div.container-text > .text {
+    font-size: 18px;
+  }
+
+  .container-img > img{
+      width: 140px;
+  }
+
+  .container-text h2{
+    font-size: 1.5em;
+  }
+
+  p.text{
+    font-size: 1em;
+  }
+
+  h2.title-projects{
+    font-size: 1.2em;
+  }
+
+  h2#title-contacts{
+    font-size: 23px;
+    width: 340px;
+  }
+
+  section#habilits{
+    background-attachment: local;
   }
 }
 
@@ -39,5 +124,70 @@
     color: var(--colo5);
     font-size: 1.7rem;
     width: 100%;
+  }
+}
+
+@media (max-width: 512px){
+  
+  h1.h1-banner{
+    font-size: 1.3em;
+  }
+  
+  section#inicio{
+    width: 345px;
+  }
+
+  div.apresentation > div.container-text > .text {
+    font-size: 14px;
+  }
+
+  .container-img > img{
+      width: 100px;
+  }
+
+  .container-text h2{
+    font-size: 1.2em;
+  }
+
+  p.text{
+    font-size: 0.9em;
+  }
+
+  h1.title-projects{
+    font-size: 1.5em;
+  }
+
+  div.proj{
+    width: 340px;
+  }
+
+  img#logoEraindie{
+    width: 280px;
+  }
+
+  p.textProjects{
+    font-size: 16px;
+    width: 300px;
+  }
+
+  img#among{
+    width: 130px;
+  }
+
+  img#book{
+    width: 50px;
+  }
+
+  h1.subTitle-project{
+    font-size: 1.3em;
+  }
+
+  img.printBig{
+    width: 300px;
+    height: 200px;
+  }
+
+  img.imgHabilits{
+    width: 70px;
   }
 }

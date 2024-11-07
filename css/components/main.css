@@ -41,7 +41,6 @@ main{
     align-items: center;
 }
 
-
 .text{
     color: var(--white);
     font-size: 1.2em;
@@ -123,7 +122,7 @@ div.proj{
     margin-bottom: 35px;
 }
 
-img#hollow{
+img#among{
     width: 320px;
     transform: scaleX(-1);
 }
@@ -175,6 +174,7 @@ img#book{
 .textProjects{
     color: var(--white);
     font-size: 1.5rem;
+    width: 700px;
 }
 
 .subTitle-project{
@@ -197,14 +197,14 @@ a.pratLink:hover{
 }
 
 section#habilits{
-    width: 100%;
+    width: 100vw;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     flex-flow: column;
     background-color: #3f3f3f;
     box-shadow: 4px 4px 10px #0000006e inset;
-    background: no-repeat black url("/imgs/banner-forest++.png");
+    background: no-repeat black url("/imgs/banner-forest++.png") center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -213,7 +213,7 @@ div#container-habilits{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 750px;
+    width: 100vw;
     height: 560px;
     flex-flow: column;
 }
@@ -224,7 +224,11 @@ div#container-images-habilits{
     align-items: center;
 }
 
+.imgHabilits{
+    transition: 0.2s;
+}
+
 .imgHabilits:hover{
-    width: 150px;
+    width: 144px;
     opacity: 0.8;
 }

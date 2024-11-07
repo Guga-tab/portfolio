@@ -1,6 +1,7 @@
 footer{
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-flow: column;
     font-family: var(--fonte2);
     background-color: var(--color4);
@@ -9,22 +10,20 @@ footer{
 
 footer > h2{
     font-size: 1.5em;
-    align-self: center;
+    text-align: center;
+    color: var(--white);
+    margin: 30px 0 30px 0;
 }
 
 div#alignContactContainer{
     display: flex;
 }
 
-div.container-contact{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row nowrap;
-    width: 300px;
-}
-
 a.textContract{
     color: var(--white);
     padding-left: 14px;
+}
+
+h2#title-contacts{
+    width: 700px;
 }
